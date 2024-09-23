@@ -1,10 +1,19 @@
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
-body {
+body{
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-}
+    font-size: 16px;
+   
+} 
+
+
+ /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+ 
+
+
+
+
 
 /**
  * Add your custom styles below
@@ -17,3 +26,156 @@ body {
  */
 
 
+
+
+
+
+.header-container{
+
+   display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+ .logo{
+   padding-left: 50px;
+   padding-top: 20px;
+   width:30px;
+ }
+
+
+ .navbar{
+   list-style-type: none;
+   margin: 0;
+   padding:0;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 30px;
+   gap:10px;
+   
+   
+ }
+
+ .navbar, a{
+   text-decoration: none;
+   color:#333333be;
+ }
+
+ .navbar a:hover{
+   color:rgb(255, 94, 0);
+ }
+
+
+ .main-cover{
+   width:300px;
+  
+ }
+
+ .section-one{
+   text-align: center;
+   padding:10vw;
+   background-image: url("/img/first-background.jpg" );
+   background-size: cover;
+   color:white;
+   
+   
+   
+ }
+
+button {
+   background-color:rgb(255, 94, 0);
+    border-radius: 4px;
+    border:  rgb(255, 128, 0)  ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    
+ }
+
+
+
+
+ .section-two-bar,ul{
+   
+   list-style-type: none;
+   display: flex;
+   gap:10rem;
+   justify-content: center;
+
+   
+
+ }
+
+ .section-two-bar img{
+   width: 150px;
+   
+ }
+
+ h4{
+   text-align: center;
+   padding: 20px;
+ }
+
+ hr{
+   border: none;
+   border-top: 2px solid #ddd;
+ }
+
+
+
+
+
+ .media{
+   display: flex;
+   gap:10rem;
+   justify-content: center;
+   
+ }
+
+ .media img{
+   height: 50px;
+   width: 50px;
+   border: 1px solid #6159596c;
+   border-radius: 70px;
+   padding: 10px;
+
+
+ }
+
+ 
+ 
+@media  (max-width:568px){
+
+  .section-two-bar,ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  
+}
+.logo {
+  /* padding-left: 50px; */
+  padding-top: 20px;
+  width: 30px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+.media {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-content: center;
+  align-items: center;
+}
+}
