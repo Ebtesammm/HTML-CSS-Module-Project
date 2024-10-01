@@ -144,7 +144,40 @@ button {
 
  }
 
- 
+.quote-container{
+  background-color: bisque;
+display: flex;
+color: rgba(0, 0, 0, 0.541);
+
+
+}
+
+.quote-position{
+  display: flex;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    line-height: 2em;
+    padding: 5em;
+
+}
+
+
+
+
+
+
+.button-quote{
+
+  background-color:rgb(255, 94, 0);
+    border-radius: 4px;
+    border:  rgb(255, 128, 0)  ;
+    color: white;
+
+
+}
+
+
  
 @media  (max-width:568px){
 
@@ -177,5 +210,9 @@ button {
   flex-direction: column-reverse;
   align-content: center;
   align-items: center;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
 }
 }
