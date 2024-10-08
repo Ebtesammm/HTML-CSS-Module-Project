@@ -85,7 +85,7 @@ body{
 .learn-more-btn {
    background-color:rgb(255, 94, 0);
     border-radius: 4px;
-    border:  rgba(211, 181, 152, 0.822)  ;
+    border:  rgba(192, 102, 19, 0.822)  ;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -177,6 +177,10 @@ color: rgba(0, 0, 0, 0.541);
 
 }
 
+.btn-color{
+  background-color:rgb(255, 94, 0);
+}
+
 
         .store-container {
             display: flex;
@@ -235,7 +239,7 @@ color: rgba(0, 0, 0, 0.541);
 
        .submit-button {
             background-color: #f4623a;
-            color: white;
+              color: white;
             border: none;
             cursor: pointer;
             padding: 15px;
